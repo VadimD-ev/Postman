@@ -1,1 +1,0 @@
-{"openapi":"3.0.0","info":{"title":"Todo List","version":"1.0.0"},"servers":[{"url":"http://localhost:3000/"}],"paths":{"/":{"get":{"description":"","responses":{"200":{"description":"Пустой массив","content":{"application/json":{}},"headers":{}}}},"post":{"description":"","responses":{"500":{"description":"","content":{"application/json":{}},"headers":{}}}}}}}
