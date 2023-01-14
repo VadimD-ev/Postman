@@ -1,0 +1,452 @@
+{
+	"id": "50604e8c-b4cc-4a50-99a7-65b1795ef1ef",
+	"name": "Веб-приложение для учителей  от Skyeng",
+	"timestamp": "2023-01-06T15:29:47.720Z",
+	"collection_id": "20998045-28bff320-fbf4-4b43-a624-8cdc1aa99020",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "35c65f52-f949-43f7-a9e7-3277e074e8c8",
+			"name": "Отображение Л/C",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/events",
+			"time": 657,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				657
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "77ff8da1-c95e-407b-b51f-1b4ea8ab1364",
+			"name": "Создание Л/C на латинице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e34349e4-eff9-45f2-89cb-5a1a07f4cc09",
+			"name": "Создание Л/C на кириллице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "50f61f63-d9cb-40c0-be1b-921da83f8884",
+			"name": "Создание Л/C с выбором цветовой гаммы",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3635e147-7eed-4b31-9471-e5be9341e3a1",
+			"name": "Создание Л/C время и дата в будущем",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "07df9581-0270-4651-943a-409c065f3fb9",
+			"name": "Создание Л/C с неустановленной датой и временем",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3738c1fa-2ebc-409e-95ec-803549a54107",
+			"name": "Редактирование Л/C на латинице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				174
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "86d0aa8e-0b18-49d1-96c2-311b4ed2b7cb",
+			"name": "Редактирование Л/C на кириллице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 178,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				178
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b0db1fe0-9a43-469d-a681-7ff15e18eb28",
+			"name": "Редактирование Л/C времени и даты",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				201
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bea48724-eda5-4547-99bd-66334040c21d",
+			"name": "Редактирование Л/C выбор любой цветовой гаммы",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				170
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1d7672a9-d850-4243-9ca7-0c83d19fb7c6",
+			"name": "Удаление Л/C на латинице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d12d7039-64dc-4036-b42f-34056ac0f7d9",
+			"name": "Удаление Л/C на кириллице",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 180,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4d1b4f7b-f685-44a0-88c4-d42922fc031f",
+			"name": "Удаление Л/C с ранее выбранной цветовой гаммы",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "946c0970-a0d4-4a4d-9576-b8f575187a2d",
+			"name": "Удаление Л/C созданного в будущем времени",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				86
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2586,
+	"collection": {
+		"requests": [
+			{
+				"id": "35c65f52-f949-43f7-a9e7-3277e074e8c8",
+				"method": "POST"
+			},
+			{
+				"id": "77ff8da1-c95e-407b-b51f-1b4ea8ab1364",
+				"method": "POST"
+			},
+			{
+				"id": "e34349e4-eff9-45f2-89cb-5a1a07f4cc09",
+				"method": "POST"
+			},
+			{
+				"id": "50f61f63-d9cb-40c0-be1b-921da83f8884",
+				"method": "POST"
+			},
+			{
+				"id": "3635e147-7eed-4b31-9471-e5be9341e3a1",
+				"method": "POST"
+			},
+			{
+				"id": "07df9581-0270-4651-943a-409c065f3fb9",
+				"method": "POST"
+			},
+			{
+				"id": "3738c1fa-2ebc-409e-95ec-803549a54107",
+				"method": "POST"
+			},
+			{
+				"id": "86d0aa8e-0b18-49d1-96c2-311b4ed2b7cb",
+				"method": "POST"
+			},
+			{
+				"id": "b0db1fe0-9a43-469d-a681-7ff15e18eb28",
+				"method": "POST"
+			},
+			{
+				"id": "bea48724-eda5-4547-99bd-66334040c21d",
+				"method": "POST"
+			},
+			{
+				"id": "1d7672a9-d850-4243-9ca7-0c83d19fb7c6",
+				"method": "POST"
+			},
+			{
+				"id": "d12d7039-64dc-4036-b42f-34056ac0f7d9",
+				"method": "POST"
+			},
+			{
+				"id": "4d1b4f7b-f685-44a0-88c4-d42922fc031f",
+				"method": "POST"
+			},
+			{
+				"id": "946c0970-a0d4-4a4d-9576-b8f575187a2d",
+				"method": "POST"
+			}
+		]
+	}
+}
